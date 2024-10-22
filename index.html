@@ -5,15 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tricity Realty</title>
 
-    <!-- SEO -->
-    <meta property="og:title" content="Tricity Realty " />
-    <meta property="og:url" content="" />
-    <meta property="og:image" content="" />
-    <meta property="og:description" content="" />
-    <meta name="robots" content="index, follow" />
-
     <!-- Favicon -->
-    <link rel="icon" href="img/logo/favicon.jpg" sizes="16x16" />
+    <link rel="icon" href="img/logo/favicon.ico" sizes="16x16" />
 
     <!-- Bootstrap CDN -->
     <link
@@ -62,6 +55,17 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/common.css" />
     <script defer src="js/script.js"></script>
+
+    <!-- SEO -->
+    <meta property="og:title" content="Tricity Realty" />
+    <meta
+      property="og:description"
+      content="Tricity Realty is a customer-centric real estate company committed to delivering innovative and high-quality developments tailored to the needs of modern buyers." />
+    <meta name="robots" content="index, follow" />
+    <meta property="og:url" content="https://autowebbed.com/tricity_realty" />
+    <meta
+      property="og:image"
+      content="https://autowebbed.com/tricity_realty/img/overview/overview.jpg" />
   </head>
   <body
     data-bs-spy="scroll"
@@ -119,15 +123,9 @@
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#configuration_section">
+                <a class="nav-link" href="#projects_section">
                   <i class="fa-solid fa-sliders nav-icon"></i>
-                  <span class="d-sm-inline"> Configuration </span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#amenities_section">
-                  <i class="fa-solid fa-wifi nav-icon"></i>
-                  <span class="d-sm-inline"> Amenities </span>
+                  <span class="d-sm-inline"> Projects </span>
                 </a>
               </li>
 
@@ -150,7 +148,741 @@
     </header>
     <!-- Header Ends  -->
     <main>
-      <!--  -->
+      <!-- Slider Section -->
+      <section id="slider_section">
+        <!--  Slider -->
+        <div
+          id="carousel-Indicators"
+          class="carousel slide desktop-slider"
+          data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"></button>
+            <button
+              type="button"
+              data-bs-target="#carousel-Indicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                class="d-block w-100 banner1"
+                width="100%"
+                src="img/banners/desktop_banner1.jpg"
+                alt="Banner1" />
+            </div>
+            <div class="carousel-item">
+              <img
+                class="d-block w-100 banner2"
+                width="100%"
+                src="img/banners/desktop_banner2.jpg"
+                alt="Banner2" />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carousel-Indicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carousel-Indicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Slider Section Ends -->
+
+      <!-- Overview Section  -->
+      <section id="overview_section" class="container p-4 mt-3">
+        <h2 class="section-heading text-center text-uppercase">
+          Welcome To Tricity Realty
+        </h2>
+
+        <div class="row mt-4">
+          <div class="col-12 col-md-6 overview_img">
+            <img class="img-fluid" src="img/overview/overview.jpg" alt="" />
+          </div>
+          <div class="col-12 col-md-6">
+            <p class="overview-para mt-3">
+              At TRICITY, our philosophy is centered around our customers. This
+              customer-first approach drives us to continuously innovate and
+              adapt to the evolving needs of the market, offering models that
+              are tailored to our customers' desires. We pride ourselves on
+              upholding the highest standards of business ethics, ensuring the
+              security of our customers' lifetime savings.
+              <br />
+              <br />
+              With a pan-Navi Mumbai presence, our widespread network provides
+              accessibility and trust . Our rich experience over several years
+              has been a key factor in our ongoing success. Above all, we are
+              committed to customer satisfaction, delivering uncompromising
+              quality and punctuality.
+            </p>
+            <button
+              class="btn btn-outline-dark download_btn"
+              data-bs-toggle="modal"
+              data-bs-target="#popupModal">
+              <i class="fa-solid fa-download nav-icon"></i> Download Brochure
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Overview Section Ends -->
+
+      <!-- Gallery Section -->
+      <section
+        id="gallery_section"
+        class="container-fluid py-3 bg-body-tertiary">
+        <h2 class="section-heading text-center text-uppercase pt-3">gallery</h2>
+        <div class="section-content">
+          <div class="container my-5 pb-3">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="gall">
+                  <img
+                    src="img/gallery/gallery1.jpg"
+                    class="img-fluid"
+                    data-fancybox="gallery"
+                    data-src="img/gallery/gallery1.jpg" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="gall">
+                  <img
+                    src="img/gallery/gallery2.jpg"
+                    class="img-fluid"
+                    data-fancybox="gallery"
+                    data-src="img/gallery/gallery2.jpg" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="gall">
+                  <img
+                    src="img/gallery/gallery3.jpg"
+                    class="img-fluid"
+                    data-fancybox="gallery"
+                    data-src="img/gallery/gallery3.jpg" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="gall">
+                  <img
+                    src="img/gallery/gallery4.jpg"
+                    class="img-fluid"
+                    data-fancybox="gallery"
+                    data-src="img/gallery/gallery4.jpg" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="gall">
+                  <img
+                    src="img/gallery/gallery5.jpg"
+                    class="img-fluid"
+                    data-fancybox="gallery"
+                    data-src="img/gallery/gallery5.jpg" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="gall">
+                  <img
+                    src="img/gallery/gallery6.jpg"
+                    class="img-fluid"
+                    data-fancybox="gallery"
+                    data-src="img/gallery/gallery6.jpg" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="gall">
+                  <img
+                    src="img/gallery/gallery7.jpg"
+                    class="img-fluid"
+                    data-fancybox="gallery"
+                    data-src="img/gallery/gallery7.jpg" />
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="gall">
+                  <img
+                    src="img/gallery/gallery8.jpg"
+                    class="img-fluid"
+                    data-fancybox="gallery"
+                    data-src="img/gallery/gallery8.jpg" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Gallery Section Ends -->
+
+      <!-- Projects Section -->
+      <section id="projects_section" class="container py-0">
+        <h2 class="section-heading text-center text-uppercase pt-4">
+          Our projects
+        </h2>
+        <div class="section-content">
+          <div class="container pb-3">
+            <div class="row">
+              <div class="col-md-3 mt-5">
+                <div class="card property_card">
+                  <img
+                    src="img/projects/01_natraj.jpg"
+                    class="card-img-top"
+                    alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title property_name">Tricity Natraj</h5>
+                    <p class="card-text property_location">Chembur</p>
+                    <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#popupModal"
+                      class="btn btn-danger"
+                      >Contact For Price</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 mt-5">
+                <div class="card property_card">
+                  <img
+                    src="img/projects/02_heritage.jpeg"
+                    class="card-img-top"
+                    alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title property_name">Tricity Heritage</h5>
+                    <p class="card-text property_location">New Panvel</p>
+                    <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#popupModal"
+                      class="btn btn-danger"
+                      >Contact For Price</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 mt-5">
+                <div class="card property_card">
+                  <img
+                    src="img/projects/03_crest.jpg"
+                    class="card-img-top"
+                    alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title property_name">Tricity Crest</h5>
+                    <p class="card-text property_location">New Panvel</p>
+                    <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#popupModal"
+                      class="btn btn-danger"
+                      >Contact For Price</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 mt-5">
+                <div class="card property_card">
+                  <img
+                    src="img/projects/04_bliss.jpg"
+                    class="card-img-top"
+                    alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title property_name">Tricity Bliss</h5>
+                    <p class="card-text property_location">Ulwe</p>
+                    <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#popupModal"
+                      class="btn btn-danger"
+                      >Contact For Price</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 mt-5">
+                <div class="card property_card">
+                  <img
+                    src="img/projects/05_bayview.jpg"
+                    class="card-img-top"
+                    alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title property_name">Tricity Bayview</h5>
+                    <p class="card-text property_location">Roadpali</p>
+                    <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#popupModal"
+                      class="btn btn-danger"
+                      >Contact For Price</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 mt-5">
+                <div class="card property_card">
+                  <img
+                    src="img/projects/06_aura.png"
+                    class="card-img-top"
+                    alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title property_name">Tricity Aura</h5>
+                    <p class="card-text property_location">Roadpali</p>
+                    <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#popupModal"
+                      class="btn btn-danger"
+                      >Contact For Price</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 mt-5">
+                <div class="card property_card">
+                  <img
+                    src="img/projects/07_aspire.png"
+                    class="card-img-top"
+                    alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title property_name">Tricity Aspire</h5>
+                    <p class="card-text property_location">Kharghar</p>
+                    <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#popupModal"
+                      class="btn btn-danger"
+                      >Contact For Price</a
+                    >
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3 mt-5">
+                <div class="card property_card">
+                  <img
+                    src="img/projects/08_montview.jpg"
+                    class="card-img-top"
+                    alt="..." />
+                  <div class="card-body">
+                    <h5 class="card-title property_name">Tricity Montview</h5>
+                    <p class="card-text property_location">Sanpada</p>
+                    <a
+                      data-bs-toggle="modal"
+                      data-bs-target="#popupModal"
+                      class="btn btn-danger"
+                      >Contact For Price</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Projects Section Ends  -->
+
+      <!-- Location Section -->
+      <section id="location_section">
+        <h2 class="section-heading text-center text-uppercase pt-3">
+          Location
+        </h2>
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12 col-lg-4">
+              <div class="loc-bor" onclick="changeMap('NATRAJ')">
+                <p><i class="fa-solid fa-location-dot"></i>Tricity Natraj</p>
+              </div>
+              <div class="loc-bor" onclick="changeMap('HERITAGE')">
+                <p><i class="fa-solid fa-location-dot"></i>Tricity Heritage</p>
+              </div>
+              <div class="loc-bor" onclick="changeMap('CREST')">
+                <p><i class="fa-solid fa-location-dot"></i>Tricity Crest</p>
+              </div>
+              <div class="loc-bor" onclick="changeMap('BLISS')">
+                <p><i class="fa-solid fa-location-dot"></i>Tricity Bliss</p>
+              </div>
+              <div class="loc-bor" onclick="changeMap('BAYVIEW')">
+                <p><i class="fa-solid fa-location-dot"></i>Tricity Bayview</p>
+              </div>
+              <div class="loc-bor" onclick="changeMap('AURA')">
+                <p><i class="fa-solid fa-location-dot"></i>Tricity Aura</p>
+              </div>
+              <div class="loc-bor" onclick="changeMap('ASPIRE')">
+                <p><i class="fa-solid fa-location-dot"></i>Tricity Aspire</p>
+              </div>
+              <div class="loc-bor" onclick="changeMap('MONTVIEW')">
+                <p><i class="fa-solid fa-location-dot"></i>Tricity Montview</p>
+              </div>
+            </div>
+            <div class="col-12 col-lg-8">
+              <iframe
+                id="location_map"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15085.618814553633!2d72.904605!3d19.045936!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c735149551dd%3A0xf59cd6c55f9c70ad!2sTricity%20Natraj!5e0!3m2!1sen!2sin!4v1729596310278!5m2!1sen!2sin"
+                width="100%"
+                height="550px"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Location Section Ends -->
+
+      <!-- About Section -->
+      <section id="about_section" class="container-fluid p-4 mt-3">
+        <div class="about_overlay">
+          <div class="container pt-2">
+            <div class="row">
+              <div class="col-12 col-lg-6 p-5 about-para-container">
+                <div class="text-center">
+                  <h2 class="section-heading text-white">
+                    About Tricity Realty
+                  </h2>
+
+                  <div class="text-white about-para">
+                    <p>
+                      Tricity Realty is a leading real estate company dedicated
+                      to creating innovative and high-quality developments that
+                      cater to the modern buyer's evolving needs. With a core
+                      philosophy that prioritizes customer satisfaction, we
+                      place significant emphasis on ethical business practices
+                      and the protection of our clients' long-term investments.
+                      This focus on integrity has allowed us to build a solid
+                      reputation for trust, reliability, and transparency across
+                      India.
+                    </p>
+                    <span id="dots8" style="display: inline"></span>
+                    <span id="more8" style="display: none">
+                      <p>
+                        Our journey in the real estate sector spans years of
+                        extensive experience, during which we have successfully
+                        navigated the industry's challenges while consistently
+                        delivering exceptional projects. From residential
+                        complexes to commercial spaces, our projects are marked
+                        by meticulous attention to detail, modern designs, and a
+                        strong commitment to quality.
+                      </p></span
+                    >
+                  </div>
+                  <button
+                    onclick="toggleContent('dots8','more8', 'myBtn8')"
+                    class="read_more"
+                    id="myBtn8">
+                    Read More
+                  </button>
+                  <br />
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6 p-5">
+                <div class="text-center">
+                  <h3 class="section-heading text-white">CONTACT US</h3>
+                  <!-- Form -->
+                  <div class="enquire-section ps-5 pe-5">
+                    <div class="container">
+                      <form id="contact-form" class="text-center">
+                        <div class="mb-3">
+                          <label for="user_name" class="form-label">Name</label>
+                          <input
+                            type="text"
+                            class="form-control inputStyle shadow-none"
+                            name="user_name"
+                            id="user_name"
+                            placeholder="Name"
+                            autocomplete="off"
+                            required />
+                        </div>
+                        <div class="mb-3">
+                          <label for="user_email" class="form-label"
+                            >Email address</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control inputStyle shadow-none"
+                            name="user_email"
+                            id="user_email"
+                            placeholder="Email Address"
+                            autocomplete="off" />
+                        </div>
+                        <div class="mb-3">
+                          <label for="contact_number" class="form-label"
+                            >Phone Number</label
+                          >
+                          <input
+                            type="tel"
+                            class="form-control inputStyle shadow-none"
+                            id="contact_number"
+                            name="contact_number"
+                            pattern="[0-9]{10}"
+                            placeholder="Phone Number"
+                            oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                            oninput="setCustomValidity('')"
+                            required />
+                        </div>
+
+                        <div
+                          class="d-flex ps-1 pb-2"
+                          style="font-size: 9px; color: #bfbfbf">
+                          <input
+                            type="checkbox"
+                            checked=""
+                            required=""
+                            class="custom-control-input custom-control-input-green"
+                            id="privacy_check"
+                            data-gtm-form-interact-field-id="0" />
+
+                          <label
+                            class="ps-2 pb-2 custom-control-label"
+                            for="privacy_check">
+                            I consent to the use of my provided data in
+                            accordance with the
+                            <a
+                              href="privacy_policy.html"
+                              target="_blank"
+                              style="font: inherit; color: inherit"
+                              >privacy policy</a
+                            >.</label
+                          >
+                        </div>
+
+                        <button
+                          type="submit"
+                          class="btn btn-primary submit-btn w-100">
+                          Submit
+                        </button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About Section Ends -->
     </main>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="container text-center text-white">
+        <div>
+          <div class="text-center">
+            <p class="contact_details"><b> Contact No:-</b> +91 971555263006</p>
+          </div>
+
+          <div>
+            <span>
+              Disclaimer : The information provided on this website is intended
+              exclusively for informational purposes. This Website Is Not An
+              Official Site And It Belongs To The Authorized Marketing Partner.
+              All rights reserved. The content, design, and information on this
+              website are protected by copyright and other intellectual property
+              rights. Any unauthorized use or reproduction of the content may
+              violate applicable laws.
+            </span>
+            <span id="dots20" style="display: inline"></span>
+            <span id="more20" style="display: none">
+              <span>
+                For accurate and up-to-date information regarding services,
+                pricing, availability, and any other details, it is recommended
+                to contact us directly through the provided contact information
+                on this website. Thank you for visiting our website.
+              </span>
+            </span>
+            <br />
+            <span
+              class="read_more2"
+              onclick="toggleContent('dots20','more20', 'myBtn20')"
+              id="myBtn20">
+              Read More
+            </span>
+          </div>
+
+          <p class="pb-4 pt-2">
+            <a
+              href="privacy_policy.html"
+              target="_blank"
+              style="text-decoration: none">
+              Privacy Policy
+            </a>
+            |
+            <a
+              href="termsandcondition.html"
+              target="_blank"
+              style="text-decoration: none">
+              Terms And Conditions
+            </a>
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mobile Footer Fixed Button -->
+    <div class="container-fluid fixed-bottom action-footer-container">
+      <ul class="nav nav-fill action-footer">
+        <li class="nav-item ps-1">
+          <a
+            data-bs-toggle="modal"
+            data-bs-target="#popupModal"
+            class="text-decoration-none text-white">
+            <i class="fa-brands fa-taxi nav-icon"> </i> Free Site Visit
+          </a>
+        </li>
+        <li class="nav-item ps-1">
+          <a
+            data-bs-toggle="modal"
+            data-bs-target="#popupModal"
+            class="text-decoration-none text-white">
+            <i class="fa-solid fa-phone me-2"></i> Call Back
+          </a>
+        </li>
+
+        <li
+          class="nav-item"
+          data-bs-toggle="modal"
+          data-bs-target="#popupModal">
+          <i class="fa-solid fa-download nav-icon"></i> Brochure
+        </li>
+      </ul>
+    </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="popupModal"
+      tabindex="-1"
+      aria-labelledby="ModalLabel"
+      aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <!-- Modal Title -->
+          <div class="modal-header">
+            <!-- <h1 class="modal-title fs-5" id="ModalLabel">Modal title</h1> -->
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"></button>
+          </div>
+
+          <!-- Modal Body -->
+          <div class="modal-body">
+            <div class="container text-center logo_back py-2">
+              <img src="img/logo/logo.png" alt="" height="50px" />
+            </div>
+            <h5 class="mt-2 text-center">
+              Register Here And Avail The Best Offers!!
+            </h5>
+            <div class="container">
+              <!--Enquire Form  -->
+              <div class="enquire-section">
+                <span class="d-block text-center fw-bold my-2">
+                  Get The Best Quote
+                </span>
+                <div class="container">
+                  <!-- Form -->
+                  <form id="contact-form-modal" class="text-center">
+                    <div class="mb-3">
+                      <label for="user_name_modal" class="form-label"
+                        >Name</label
+                      >
+                      <input
+                        type="text"
+                        class="form-control inputStyle shadow-none"
+                        name="user_name"
+                        id="user_name_modal"
+                        placeholder="Name"
+                        autocomplete="off"
+                        required />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="user_email_modal" class="form-label"
+                        >Email address</label
+                      >
+                      <input
+                        type="email"
+                        class="form-control inputStyle shadow-none"
+                        name="user_email"
+                        id="user_email_modal"
+                        placeholder="Email Address"
+                        autocomplete="off" />
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="contact_number_modal" class="form-label"
+                        >Phone Number</label
+                      >
+                      <input
+                        type="tel"
+                        class="form-control inputStyle shadow-none"
+                        name="contact_number"
+                        id="contact_number_modal"
+                        pattern="[0-9]{10}"
+                        placeholder="Phone Number"
+                        oninvalid="setCustomValidity('Please enter a valid phone number. e.g., 12345-67890')"
+                        oninput="setCustomValidity('')"
+                        required />
+                    </div>
+
+                    <div
+                      class="d-flex ps-1 pb-2"
+                      style="font-size: 9px; color: #bfbfbf">
+                      <input
+                        type="checkbox"
+                        checked=""
+                        required=""
+                        class="custom-control-input custom-control-input-green"
+                        id="privacy_check_modal"
+                        data-gtm-form-interact-field-id="0" />
+
+                      <label
+                        class="ps-2 pb-2 custom-control-label"
+                        for="privacy_check_modal">
+                        I consent to the use of my provided data in accordance
+                        with the
+                        <a
+                          href="privacy_policy.html"
+                          target="_blank"
+                          style="font: inherit; color: inherit"
+                          >privacy policy</a
+                        >.</label
+                      >
+                    </div>
+
+                    <button type="submit" class="btn btn-primary submit-btn">
+                      Submit
+                    </button>
+                    <p class="m-2 form_norms">
+                      <span>
+                        Your contact details are safe with us. <br />
+                      </span>
+                      <span> Our team will be in touch with you soon.</span>
+                    </p>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal Footer -->
+          <div class="modal-footer"></div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

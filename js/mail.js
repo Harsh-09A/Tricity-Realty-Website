@@ -34,7 +34,7 @@ const handleFormSubmit = async (
     ip_address: await getIpAddress(),
     website_url: window.location.href,
     to_email: "harsh.autowebbed@gmail.com",
-    company_name: "{Project Name}",
+    company_name: "Tricity Realty",
   };
 
   // Send Form
