@@ -1,3 +1,12 @@
+@font-face {
+  font-family: "Trajan_Pro_Bold";
+  src: url("../fonts/Trajan_Pro_Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Varsity_Regular";
+  src: url("../fonts/Varsity_Regular.ttf") format("truetype");
+}
+
 /* All Sections */
 
 .section-heading {
